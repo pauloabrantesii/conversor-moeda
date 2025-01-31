@@ -16,8 +16,8 @@ const CURRENCIES = {
 
 function App() {
   const [amount, setAmount] = useState<string>("1");
-  const [fromCurrency, setFromCurrency] = useState<string>("BRL");
-  const [toCurrency, setToCurrency] = useState<string>("USD");
+  const [fromCurrency, setFromCurrency] = useState<string>("USD");
+  const [toCurrency, setToCurrency] = useState<string>("BRL");
   const [convertedAmount, setConvertedAmount] = useState<number | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
